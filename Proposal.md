@@ -1,8 +1,11 @@
 Magma Python Simulator:
+
 Peter Do (peterhdo) & Brennan Shacklett (bps)
+
 github.com/shacklettbp/magmasimulator
 
 Goals & Motivation:
+
 We want to create a python simulator for the Magma project,
 to aid in debugging and testing of hardware designs in Magma. In its current
 iteration, Magma makes writing the first pass of a design fairly straightforward
@@ -16,6 +19,7 @@ debugging and testing in a convenient python environment, which will improve the
 utility of magma for rigorous and more rapid testing and prototyping.
 
 Deliverables:
+
 We plan on having a working Magma python simulator for Ice40
 hardware at the conclusion of this project. It will be forked from the existing
 Magma codebase and will theoretically work seamlessly should users want to debug
@@ -26,6 +30,7 @@ potentially extend this into a visual debugger, but that depends on how long it
 takes to get the base simulator to work. 
 
 Significance:
+
 If Magma were to have a python simulator built-in, it would allow
 for easier hardware design for existing users. In addition, individuals
 interested in starting to learn about hardware design would have an easier
@@ -35,6 +40,7 @@ development, and it would be incredibly helpful to be able to debug the
 hardware we design as well.
 
 Inspiration:
+
 PyMTL shows that having a host language simulator is a very useful
 and possibly even essential tool when designing hardware.  There is also a large
 body of work on high performance simulators for hardware, but our project will
@@ -43,11 +49,13 @@ have proven to be useful in hardware design, so having a simulator at the python
 level would hopefully help in a similar manner.
 
 Resources:
+
 We plan on discussing our plan and any issues that arise with Pat
 Hanrahan. We’ll be working very closely with the existing Magma codebase, so we
 will use that as a resource to develop the simulator.
 
 Project Plan:
+
 The final result we hope to achieve is a working magma python
 simulator.  The first step of the project will involve simulating the output of
 a very simple test program that simply toggles one of the Icestick’s output bits
@@ -68,6 +76,6 @@ will be the last part of our project, which we will work on after the
 presentation.
 
 Division of Responsibility:
+
 We plan to use pair programming when working on the
 project, so all parts of the project will be worked on by both of us.
-
