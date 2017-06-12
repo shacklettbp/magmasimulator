@@ -1,7 +1,7 @@
 import sys
 from magma import *
 from mantle import *
-from boards.icestick import IceStick
+from loam.boards.icestick import IceStick
 
 icestick = IceStick()
 icestick.Clock.on()
@@ -21,4 +21,4 @@ wire(counter.COUT, main.D1)
 wire(counter.O, main.J3)
 
 
-compile(sys.argv[1], main)
+compile(sys.argv[1], main, sys.argv[2])
